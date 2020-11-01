@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_medium">7.5dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_xlarge">15dp</dimen>
+    <dimen name="margin_xxlarge">20dp</dimen>
+
+    <dimen name="margin_xxxlarge">60dp</dimen>
+    <dimen name="img_size_avatar">15dp</dimen>
+    <dimen name="img_size_language">10dp</dimen>
+    <dimen name="img_size_star">14dp</dimen>
+
+    <dimen name="img_size_splash">140dp</dimen>
+    <dimen name="img_size_form">60dp</dimen>
+    <dimen name="img_size_login">120dp</dimen>
+    <dimen name="img_size_dynamic_product">60dp</dimen>
+    <dimen name="layout_size_dynamic_product">60dp</dimen>
+    <dimen name="img_size_dynamic_product_settings">30dp</dimen>
+    <dimen name="img_size_form_options">30dp</dimen>
+    <dimen name="img_size_toast">50dp</dimen>
+
+    <dimen name="height_da_list">200dp</dimen>
+
+    <dimen name="img_size_menu">60dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+
+
+    <dimen name="notification_icon_size">32dp</dimen>
+
+    <dimen name="img_size_width_about_logo">150dp</dimen>
+    <dimen name="img_size_height_about_logo">60dp</dimen>
+
+    <dimen name="badge_text_size">12sp</dimen>
+
+    <dimen name="img_size_home">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="img_size_videohint">75dp</dimen>
+
+    <dimen name="img_size_slide">60dp</dimen>
+    <dimen name="img_size_spinarrow">20dp</dimen>
+    <dimen name="img_size_syllabus">400dp</dimen>
+
+
+
+    <dimen name="img_size_success">75dp</dimen>
+    <dimen name="size_delete_list">24dp</dimen>
+
+    <dimen name="height_video">300dp</dimen>
+    <dimen name="padding_rating_text">4dp</dimen>
+
+    <dimen name="img_size_settings">50dp</dimen>
+
+    <dimen name="img_size_qrcode">350dp</dimen>
+    <dimen name="img_size_dynamic_remove">30dp</dimen>
+    <dimen name="img_size_productlist_product">90dp</dimen>
+
+    <dimen name="dividerGrid">1dp</dimen>
+
+    <dimen name="height_offer">150dp</dimen>
+    <dimen name="size_timeline">2dp</dimen>
+    <dimen name="size_timeline_marker">15dp</dimen>
+
+    <dimen name="txt_size_splash">42sp</dimen>
+    <dimen name="padding_right_update_status">20dp</dimen>
+    <dimen name="img_size_status_close">20dp</dimen>
+</resources>

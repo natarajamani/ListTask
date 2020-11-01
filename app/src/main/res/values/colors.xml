@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#CCCCCC</color>
+    <color name="colorAccent">#014b8e</color>
+    <color name="splash_status_bar">#171A1F</color>
+    <color name="login_status_bar">#F7F7F7</color>
+    <color name="transparent">#00000000</color>
+    <color name="app_color_pressed">#FF242729</color>
+    <color name="transperant">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#727171</color>
+    <color name="black_transperant">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="red">#ff000d</color>
+    <color name="green">#016e2b</color>
+    <color name="list_grey">#8D8C8C</color>
+    <color name="list_grey2">#C2BFBF</color>
+    <color name="light_grey">#dad9d9</color>
+    <color name="light_white">#F7F7F7</color>
+    <color name="blue_color">#0B6BC3</color>
+
+</resources>

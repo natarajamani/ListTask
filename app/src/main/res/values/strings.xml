@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RepositoryTask</string>
+
+    <string name="noRecordFound">No record found.</string>
+    <string name="trendingRepositories">Trending Repositories</string>
+    <string name="search">Search</string>
+    <string name="connection_error">Connection Error !</string>
+    <string name="server_error">Server error.</string>
+    <string name="server_not_found">Server not found.</string>
+    <string name="server_unreach">Server Unreachable.</string>
+    <string name="check_internet_conn">Connection error. Check your internet connection.</string>
+    <string name="ok">Ok</string>
+    <string name="noNetworkConnection">No Network Connection</string>
+    <string name="tryAgain">Try Again</string>
+</resources>

@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+
+    <style name="LayoutStyle_MatchParent_WrapContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="LayoutStyle_MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LayoutStyle_WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LayoutStyle_MatchParent_WrapContent_Vertical" parent="LayoutStyle_MatchParent_WrapContent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LayoutStyle_MatchParent_Vertical" parent="LayoutStyle_MatchParent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LayoutStyle_WrapContent_Vertical" parent="LayoutStyle_WrapContent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextviewStyleEmptyList" parent="LayoutStyle_MatchParent">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="TextviewStyleListTitle" parent="LayoutStyle_MatchParent_WrapContent">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextviewStyleListDesc" parent="LayoutStyle_MatchParent_WrapContent">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="TextviewStyleListSecondary" parent="LayoutStyle_WrapContent">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/list_grey</item>
+    </style>
+
+    <style name="TextviewStyleListStar" parent="LayoutStyle_WrapContent">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/list_grey2</item>
+    </style>
+
+
+</resources>

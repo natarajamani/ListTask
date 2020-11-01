@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        style="@style/LayoutStyle_MatchParent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/repoList"
+            style="@style/LayoutStyle_MatchParent_WrapContent"
+            android:scrollbars="vertical"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_empty_list"
+        style="@style/TextviewStyleEmptyList"
+        android:visibility="gone"
+        android:text="@string/noRecordFound"/>
+
+    <LinearLayout
+        android:id="@+id/noConnection"
+        style="@style/LayoutStyle_MatchParent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center">
+
+    <LinearLayout
+        style="@style/LayoutStyle_MatchParent_WrapContent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            style="@style/TextviewStyleListTitle"
+            android:gravity="center_horizontal"
+            android:text="@string/noNetworkConnection"/>
+
+        <Button
+            android:id="@+id/btn_try"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_xlarge"
+            android:paddingRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/tryAgain"
+            android:textColor="@color/blue_color"
+            android:background="@drawable/shadow_button_layer"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:theme="@style/ToolbarColoredBackArrow"
+            app:popupTheme="@style/AppTheme"
+            app:titleTextColor="@color/black"
+            android:background="@color/colorPrimary" />
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            app:searchBackIcon="@drawable/ic_action_arrow_back"
+            app:searchCloseIcon="@drawable/ic_action_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</FrameLayout>
