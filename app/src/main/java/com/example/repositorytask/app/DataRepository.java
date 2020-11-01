@@ -61,31 +61,6 @@ public class DataRepository {
         }
     }
 
-    private void insertItem(List<RepositoryData> alData){
-        try{
-            new AsyncTask<Void, Void, Void>() {
-                @Override
-                protected Void doInBackground(Void... voids) {
-                    try{
-                        mDatabase.itemDao().insertAll(alData);
-                    }catch (Exception e){
-                        e.printStackTrace();
-                    }
-                    return null;
-                }
-
-                @Override
-                protected void onPostExecute(Void aVoid) {
-                    super.onPostExecute(aVoid);
-
-                  //  getLocalList();
-
-                }
-            }.execute();
-
-        } catch (Exception e) {
-            LogUtils.printException(e);
-        }
-    }
+   
 
 }
